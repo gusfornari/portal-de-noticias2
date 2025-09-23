@@ -1,0 +1,17 @@
+/* utility-first
+  conceito no css, quando fazemos uma classe so para uma função, onde posso aplicar ela durante o projeto */
+.grid {
+    display: grid;  
+}
+
+.grid-flow-col {
+    grid-auto-flow: column; 
+}
+
+.grid-cols-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+  .gap-16 {
+    gap: 16px;
+  }
